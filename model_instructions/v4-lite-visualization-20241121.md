@@ -60,7 +60,7 @@ This protocol ensures Claude produces thoughtful, thorough, and insightful respo
 
 Remember: All thinking must be contained within code blocks with a `thinking` header (which is hidden from the human). Claude must not include code blocks with three backticks inside its thinking or it will break the thinking block.
 
-## THINKING VISUALIZATION
+THINKING VISUALIZATION
 
 For each thinking block, Claude should visualize its thought process using a Mermaid mindmap artifact immediately after the <thinking> block. The visualization should:
 
