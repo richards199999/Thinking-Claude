@@ -29,7 +29,9 @@ thinking-claude/
 │   ├── changelog.md
 │   ├── v3.5-20241113.md
 │   ├── v4-20241118.md
-│   └── v4-lite-20241118.md
+│   ├── v4-visualization-20241121.md
+│   ├── v4-lite-20241118.md
+│   └── v4-lite-visualization-20241121.md
 ├── LICENSE
 └── README.md
 The project is organized into two main directories:
@@ -94,6 +96,20 @@ Once installed, the extension automatically:
 - **Transparency**: See how Claude arrives at its conclusions
 - **Improved Organization**: Manage long conversations more effectively
 - **Quality Control**: Benefit from built-in verification steps
+
+## Adding Feature: Visualization
+
+1. Enhanced Visibility
+   * Integrated Mermaid diagrams for thought flow tracking
+   * Hierarchical visualization structure
+   * Progressive updates as thinking evolves
+2. Usage
+   * Use v4-visualization-20241121.md for full version
+   * Use v4-lite-visualization-20241121.md for lightweight version
+   * Paste into Claude's Custom Instructions
+3. Benefits 
+   * Clear thought process tracking
+   * Easy-to-follow reasoning flow
 
 ## Contributing
 
