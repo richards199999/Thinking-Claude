@@ -19,21 +19,20 @@ This project consists of two main components:
 2. **Browser Extension**: A tool that makes Claude's thinking process more readable and manageable in the browser interface
 
 ## Project Structure
-thinking-claude/
-├── extension/
-│   ├── .vscode/
-│   ├── chrome/
-│   ├── firefox/
-│   └── changelog.md
-├── model_instructions/
-│   ├── changelog.md
-│   ├── v3.5-20241113.md
-│   ├── v4-20241118.md
-│   ├── v4-visualization-20241121.md
-│   ├── v4-lite-20241118.md
-│   └── v4-lite-visualization-20241121.md
-├── LICENSE
-└── README.md
+      thinking-claude/
+      ├── extension/
+      │   ├── .vscode/
+      │   ├── chrome/
+      │   ├── firefox/
+      │   └── changelog.md
+      ├── model_instructions/
+      │   ├── changelog.md
+      │   ├── v3.5-20241113.md
+      │   ├── v4-20241118.md
+      │   └── v4-lite-20241118.md
+      ├── LICENSE
+      └── README.md
+
 The project is organized into two main directories:
 - `extension/`: Contains browser extension implementations
 - `model_instructions/`: Contains thinking protocols for different versions
