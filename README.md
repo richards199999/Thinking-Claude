@@ -18,6 +18,25 @@ This project consists of two main components:
 1. **Thinking Protocol**: A comprehensive set of instructions that guides Claude to think deeply and systematically before responding
 2. **Browser Extension**: A tool that makes Claude's thinking process more readable and manageable in the browser interface
 
+## Project Structure
+      thinking-claude/
+      ├── extension/
+      │   ├── .vscode/
+      │   ├── chrome/
+      │   ├── firefox/
+      │   └── changelog.md
+      ├── model_instructions/
+      │   ├── changelog.md
+      │   ├── v3.5-20241113.md
+      │   ├── v4-20241118.md
+      │   └── v4-lite-20241118.md
+      ├── LICENSE
+      └── README.md
+The project is organized into two main directories:
+- `extension/`: Contains browser extension implementations
+- `model_instructions/`: Contains thinking protocols for different versions
+
+Each directory maintains its own changelog for version tracking.
 ## Thinking Protocol
 
 The thinking protocol instructs Claude to follow a natural, thorough thought process before providing responses.
@@ -35,7 +54,14 @@ The browser extension enhances the Claude interface by making the thinking proce
 ### Installation
 
 #### Chrome
-1. Clone this repository
+
+**Quick Install:**
+Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/thinking-claude/ncjafpbbndpggfhfgjngkcimeaciahpo)
+
+**Manual Installation:**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/thinking-claude.git
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode"
 4. Click "Load unpacked" and select the `extension/chrome` folder

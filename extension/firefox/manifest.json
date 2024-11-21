@@ -13,7 +13,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "57.0"
+      "strict_min_version": "58.0"
     }
   }
 }
