@@ -69,6 +69,14 @@ Once installed, the extension automatically:
 - **Improved Organization**: Manage long conversations more effectively
 - **Quality Control**: Benefit from built-in verification steps
 
+## GPT-4o Version
+
+⭐The new GPT-4o version is now available!⭐
+
+- The Thinking-GPT4o, based on slight modifications to the Claude version, is now available on the OpenAI GPT store.
+- It outperforms the GPT-o1-mini model in tests.
+- For usage instructions, visit the [Thinking-GPT4o repository](https://github.com/ouyangyipeng/Thinking-GPT4o).
+
 ## Contributing
 
 Contributions are welcome! Feel free to:
