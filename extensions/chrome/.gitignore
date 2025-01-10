@@ -3,6 +3,7 @@ node_modules/
 
 # Package manager files
 bun.lockb
+package-lock.json
 
 # Build output
 dist/
